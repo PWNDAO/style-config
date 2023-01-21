@@ -1,23 +1,23 @@
-name: 'Release and Publish Package'
+name: "Release and Publish Package"
 
-on: 
+on:
   push:
     branches:
-      - 'main'
+      - "main"
 
 jobs:
   publish:
-    runs-on: 'ubuntu-latest'
+    runs-on: "ubuntu-latest"
     steps:
       - name: Checkout the repository
         uses: actions/checkout@v3
-      - name: 'Install or retrieve from cache node & npm.'
+      - name: "Install or retrieve from cache node & npm."
         uses: actions/setup-node@v3
         with:
           node-version: 18
 
       - name: Install
-        run: npm install
+        run: npm install --legacy-peer-deps
 
       - name: Release
         env:
