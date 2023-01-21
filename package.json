@@ -1,6 +1,5 @@
 {
-  "name": "@PWNFinance/style-config",
-  "private": true,
+  "name": "@pwnfinance/style-config",
   "version": "1.0.0",
   "description": "Shared ESLint, StyleLint and Prettier configuration for PWN TypeScript projects.",
   "repository": {
