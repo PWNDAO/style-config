@@ -14,7 +14,7 @@ jobs:
       - name: 'Install or retrieve from cache node & npm.'
         uses: actions/setup-node@v3
           with:
-            node-version: 16
+            node-version: 18
 
       - name: Release
         env:
