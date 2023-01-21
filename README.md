@@ -39,3 +39,9 @@ module.exports = {
   extends: '@pwnfinance/style-config/stylelint.config',
 }
 ```
+
+### How to make changes
+
+If you need to make any changes to the repo, create a new branch with your changes and submit a PR. Please consult this with other members of the dev team as your changes might brake other projects. If not emergency, do not merge without approval. Before making changes to this repo consider overriding the configs locally in your specific project.
+
+The new version should be available from the NPM registry shortly after merging to the main branch (GitHub Actions will publish your changes automatically).
