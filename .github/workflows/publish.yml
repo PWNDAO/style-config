@@ -16,6 +16,9 @@ jobs:
         with:
           node-version: 18
 
+      - name: Install
+        run: npm install
+
       - name: Release
         env:
           GH_TOKEN: ${{ secrets.PWN_PAT }}
