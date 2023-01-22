@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/PWNFinance/style-config/compare/v1.0.1...v1.0.2) (2023-01-22)
+
+
+### Bug Fixes
+
+* **version:** change package version to fix npm problem ([49e7abe](https://github.com/PWNFinance/style-config/commit/49e7abe2454dd3d405f3f6463ee43fc3f177cf0f))
+
 ## [1.0.1](https://github.com/PWNFinance/style-config/compare/v1.0.0...v1.0.1) (2023-01-22)
 
 
