@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/PWNFinance/style-config/compare/v1.0.2...v1.0.3) (2023-01-22)
+
+
+### Bug Fixes
+
+* **publish.yml:** remove npm publish step ([5c949d9](https://github.com/PWNFinance/style-config/commit/5c949d988884442fd09adcc2637689b9dcdb6fff))
+
 ## [1.0.2](https://github.com/PWNFinance/style-config/compare/v1.0.1...v1.0.2) (2023-01-22)
 
 
