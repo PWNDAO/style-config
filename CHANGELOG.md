@@ -1,3 +1,11 @@
+## [1.0.1](https://github.com/PWNFinance/style-config/compare/v1.0.0...v1.0.1) (2023-01-22)
+
+
+### Bug Fixes
+
+* **CI:** add npm registry url to GitHub workflow ([3de371b](https://github.com/PWNFinance/style-config/commit/3de371bb22318180cbee622cf128fbba8bea0e7c))
+* **publish.yml:** replace ci for install ([54037d7](https://github.com/PWNFinance/style-config/commit/54037d7e63e133e9cc360ae8dac0251613de5893))
+
 # 1.0.0 (2023-01-21)
 
 
