@@ -8,7 +8,7 @@ Shared ESLint, StyleLint and Prettier configuration for PWN TypeScript projects.
 2. Make sure you have peer dependencies installed as some package managers don't install them automatically. (`yarn add eslint`)
 3. In this package there're configs for ESLint, Prettier and Stylelint. You can use all of them, but it's not required. For example if your project doesn't have any css there's no point in setting up Stylelint.
 
-* Note that the default configs are for production. If you want to get developer errors you must set an enviroment variable `NODE_ENV=development`. Development mode won't give you errors for things like `console.log` and similar, you will only get warnings for such things.
+- Note that the default configs are for production. If you want to get developer errors you must set an enviroment variable `NODE_ENV=development`. Development mode won't give you errors for things like `console.log` and similar, you will only get warnings for such things.
 
 ##### Prettier
 
@@ -16,7 +16,7 @@ Create a `prettier.config.js` file in root directory of your project and copy th
 
 ```
 module.exports = {
-  extends: '@pwnfinance/style-config/prettier.config',
+  extends: './node_modules/@pwnfinance/style-config/prettier.config',
 }
 ```
 
@@ -26,7 +26,7 @@ Create a `.eslintrc.js` file in root directory of your project and copy this cod
 
 ```
 module.exports = {
-  extends: '@pwnfinance/style-config/eslint-config-pwn',
+  extends: './node_modules/@pwnfinance/style-config/eslint-config-pwn',
 }
 ```
 
@@ -36,7 +36,7 @@ Create a `stylelint.config.js` file in root directory of your project and copy t
 
 ```
 module.exports = {
-  extends: '@pwnfinance/style-config/stylelint.config',
+  extends: './node_modules/@pwnfinance/style-config/stylelint.config',
 }
 ```
 
