@@ -123,6 +123,16 @@ module.exports = {
         "@typescript-eslint/explicit-module-boundary-types": "off",
       },
     },
+    {
+      files: ["*.js"],
+      rules: {
+        "@typescript-eslint/no-unused-vars": "off",
+        "@typescript-eslint/no-use-before-define": "off",
+        "@typescript-eslint/no-useless-constructor": "off",
+        "@typescript-eslint/explicit-module-boundary-types": "off",
+        "@typescript-eslint/no-empty-function": "off",
+      },
+    },
   ],
   settings: {
     "import/resolver": {
