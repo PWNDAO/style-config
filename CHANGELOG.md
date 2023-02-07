@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/PWNFinance/style-config/compare/v1.0.3...v1.1.0) (2023-02-07)
+
+
+### Bug Fixes
+
+* **eslint-config:** change rules for js files ([db6498d](https://github.com/PWNFinance/style-config/commit/db6498d17d70720694a30487f4ec4cd8c95cb716))
+
+
+### Features
+
+* ignore ts rules for js files ([c6d82fb](https://github.com/PWNFinance/style-config/commit/c6d82fb0470027837f03fcba77132e44706602ec))
+
 ## [1.0.3](https://github.com/PWNFinance/style-config/compare/v1.0.2...v1.0.3) (2023-01-22)
 
 
