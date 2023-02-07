@@ -123,6 +123,10 @@ module.exports = {
         "@typescript-eslint/explicit-module-boundary-types": "off",
       },
     },
+    {
+      files: ["*.js"],
+      extends: ["standard", "eslint:recommended"],
+    },
   ],
   settings: {
     "import/resolver": {
