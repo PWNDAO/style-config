@@ -1,3 +1,12 @@
+## [1.1.1](https://github.com/PWNFinance/style-config/compare/v1.1.0...v1.1.1) (2023-03-20)
+
+
+### Bug Fixes
+
+* **commitizen-config:** remove unnecessary config file ([4c76f10](https://github.com/PWNFinance/style-config/commit/4c76f10e2cd9804e95084d333f9c753a8b040e5d))
+* **dependencies:** move semver deps to dev-deps ([6c15ab1](https://github.com/PWNFinance/style-config/commit/6c15ab19b072e88230e19b254acf1b88e3e5ee7c))
+* **deps:** updated all deps ([0025e05](https://github.com/PWNFinance/style-config/commit/0025e05e0a47ee8dc30e6ce16cb0daa9ef1c8a38))
+
 # [1.1.0](https://github.com/PWNFinance/style-config/compare/v1.0.3...v1.1.0) (2023-02-07)
 
 
