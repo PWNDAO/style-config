@@ -18,7 +18,7 @@ jobs:
           registry-url: "https://registry.npmjs.org"
 
       - name: Install
-        run: npm install --legacy-peer-deps
+        run: npm install --dev --legacy-peer-deps
 
       - name: Release
         env:
